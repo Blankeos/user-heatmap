@@ -140,17 +140,13 @@
 			.append('circle')
 			// @ts-ignore
 			.attr('cx', function (d: any) {
-				return x(d!.hour.toString())! + radius;
+				return x(d!.hour.toString())! + x.bandwidth() / 2;
 			})
 			// @ts-ignore
 			.attr('cy', function (d: any) {
-				return y(d!.country)! + radius;
+				return y(d!.country)! + y.bandwidth() / 2;
 			})
 			.attr('r', radius)
-			.attr('rx', 200)
-			.attr('ry', 200)
-			.attr('width', radius)
-			.attr('height', radius)
 			.style('fill', function (d) {
 				return myColor(d!.count);
 			})
