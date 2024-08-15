@@ -64,11 +64,13 @@
 					<Dropdown {options} bind:currentValue />
 				</div>
 
-				<div class="bg-white rounded-lg border p-5 flex flex-col gap-y-4 min-h-56">
+				<div
+					class="bg-white rounded-lg border border-neutral-200 p-5 flex flex-col gap-y-4 min-h-72"
+				>
 					<div class="flex justify-between gap-x-2">
 						<h3 class="text-sm font-medium">Unique Destination Heatmap</h3>
 						<span class="flex items-center gap-x-2 text-xs text-neutral-500 truncate"
-							>Less to more visitors <span class="flex gap-x-1">
+							>Less to more unique visitors <span class="flex gap-x-1">
 								<span class="rounded-full w-1.5 h-1.5" style:background-color="#FFECE3"></span>
 								<span class="rounded-full w-1.5 h-1.5" style:background-color="#FBAB8F"></span>
 								<span class="rounded-full w-1.5 h-1.5" style:background-color="#FF7875"></span>

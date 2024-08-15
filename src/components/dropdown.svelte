@@ -50,7 +50,7 @@
 <div use:clickOutside={() => (isOpen = false)}>
 	<button
 		on:click={toggleDropdown}
-		class="text-neutral-600 bg-white border-2 border-neutral-100 hover:bg-neutral-100 focus:ring-2 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm pl-4 pr-2 text-center inline-flex items-center min-w-48 min-h-10"
+		class="text-neutral-600 bg-white border border-neutral-200 hover:bg-neutral-100 focus:ring-2 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm pl-4 pr-2 text-center inline-flex items-center min-w-48 min-h-10"
 		type="button"
 	>
 		<div class="flex w-full justify-between">
