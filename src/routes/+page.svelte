@@ -45,7 +45,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Web Traffics - Home</title>
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">
